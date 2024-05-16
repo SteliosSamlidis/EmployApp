@@ -1,9 +1,8 @@
 package org.example;
 
 import java.util.Scanner;
-import java.util.UUID;
 
-public class emailAp {
+public class EmailApp {
 
     private String firstName;
     private String lastName;
@@ -14,7 +13,7 @@ public class emailAp {
     private String alternateEmail;
 
     // Constructor for firstname
-    public emailAp() {
+    public EmailApp() {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt user to enter first name and last name
